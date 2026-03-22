@@ -1,0 +1,28 @@
+.genpark-integration-widget {
+  padding: 15px;
+  border: 1px dashed #ccc;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+.genpark-btn {
+  background-color: #000;
+  color: #fff;
+  padding: 15px;
+  width: 100%;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.genpark-btn:hover {
+  background-color: #333;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.genpark-subtext {
+  font-size: 12px;
+  color: #666;
+  margin-top: 8px;
+}

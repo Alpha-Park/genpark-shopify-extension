@@ -1,0 +1,4 @@
+name = "GenPark Merchant Integration"
+client_id = "00000000000000000"
+application_url = "https://genpark.ai/shopify"
+embedded = true

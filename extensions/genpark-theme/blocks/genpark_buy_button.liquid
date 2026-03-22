@@ -1,0 +1,26 @@
+<div class="genpark-integration-widget" data-product-id="{{ product.id }}" data-price="{{ product.price | money_without_currency }}" style="margin-top:20px; text-align: center;">
+  <button id="genpark-sync-btn" class="genpark-btn" type="button">
+    🚀 List this item on the GenPark Network
+  </button>
+  <p class="genpark-subtext">Reach 10M+ GenPark AI Agents instantly. Zero upfront fees.</p>
+  <div id="genpark-status" style="display:none; font-size: 13px; margin-top: 10px;"></div>
+</div>
+
+<script src="{{ 'genpark.js' | asset_url }}" defer="defer"></script>
+
+{% schema %}
+{
+  "name": "GenPark Buy Button",
+  "target": "section",
+  "stylesheet": "genpark.css",
+  "javascript": "genpark.js",
+  "settings": [
+    {
+      "type": "color",
+      "id": "button_color",
+      "label": "Button Color",
+      "default": "#000000"
+    }
+  ]
+}
+{% endschema %}

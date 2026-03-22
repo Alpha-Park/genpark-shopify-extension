@@ -1,0 +1,14 @@
+{
+  "name": "genpark-shopify",
+  "version": "1.1.0",
+  "description": "GenPark Commerce Integration for Shopify",
+  "scripts": {
+    "dev": "shopify app dev",
+    "build": "shopify app build",
+    "deploy": "shopify app deploy"
+  },
+  "dependencies": {
+    "@shopify/app": "^3.0.0",
+    "@shopify/cli": "^3.0.0"
+  }
+}
